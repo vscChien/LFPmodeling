@@ -1,4 +1,5 @@
 You can run below demo scripts on Matlab.
+```
 >> demo_fig5
 >> demo_fig6
 >> demo_fig7a
@@ -8,3 +9,4 @@ You can run below demo scripts on Matlab.
 >> demo_fig10
 >> demo_figS1
 >> demo_figS2
+```
