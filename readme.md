@@ -1,3 +1,10 @@
-Laminar Neural Dynamics of Auditory Evoked Responses: Computational Modeling of Local Field Potentials in Auditory Cortex of Non-Human Primates
-
-https://doi.org/10.1101/2022.12.21.521407
+You can run below demo scripts on Matlab.
+>> demo_fig5
+>> demo_fig6
+>> demo_fig7a
+>> demo_fig7b
+>> demo_fig8
+>> demo_fig9
+>> demo_fig10
+>> demo_figS1
+>> demo_figS2
