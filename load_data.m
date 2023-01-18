@@ -7,7 +7,11 @@
 %    ref{s}.MUApeak: peak value of MUA 
 
 function ref=load_data()
-    path='.\data\';
+    if ispc % windows
+        path='.\data\'; 
+    else    % linux
+        path='./data/';
+    end
     ref=cell(4,1);
     tmp1=load([path, 'site1.mat']);
     tmp2=load([path, 'site2.mat']);
