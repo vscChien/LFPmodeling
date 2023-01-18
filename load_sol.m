@@ -9,7 +9,11 @@
 %       p(s,25:28) % thalamic input strengths
 
 function p=load_sol()
-    path='.\solution\';
+    if ispc % windows
+        path='.\solution\';
+    else    % linux
+        path='./solution/';
+    end
     p=zeros(4,28);
     for s=1:4
       tmp=load([path, sprintf('solution_site%d.mat',s)]);
